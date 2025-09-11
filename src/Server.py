@@ -15,7 +15,6 @@ def speak(text):
 def server():
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
-    # write the @add of the Server in place of localhost
     server_socket.bind(('localhost', 12345))
 
     print("UDP Server is waiting for data")
