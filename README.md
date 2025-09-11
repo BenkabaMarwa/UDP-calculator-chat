@@ -11,3 +11,19 @@ A simple real-time chat and calculator application using the **UDP protocol**. T
 - Basic calculator functionality integrated into the chat.
 - Lightweight network communication without using threads.
 - Easy-to-understand Python implementation for learning purposes.
+  
+---
+
+## Usage
+
+- Run the server:
+
+python server.py
+
+
+- Run the client(s):
+
+python client.py
+
+
+Start chatting and performing calculations in real-time.
