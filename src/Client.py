@@ -29,6 +29,7 @@ def client():
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     client_socket.settimeout(5)
 
+    #add the @add of the Serve in the place of localhost
     server_address = ('localhost', 12345)
 
     print(Fore.GREEN + "Connected to server." + Style.RESET_ALL)
