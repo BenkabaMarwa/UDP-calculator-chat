@@ -17,13 +17,25 @@ A simple real-time chat and calculator application using the **UDP protocol**. T
 ## Usage
 
 - Run the server:
-
-python server.py
-
+  ```bash
+  python server.py
+  ```
 
 - Run the client(s):
-
-python client.py
-
+  ```bash
+  python client.py
+  ```
 
 Start chatting and performing calculations in real-time.
+
+---
+
+## 🪪 License
+
+This project is licensed under the MIT License – you’re free to use, modify, and share it.
+
+---
+
+## 👩‍💻 Author
+
+Benkaba Marwa
